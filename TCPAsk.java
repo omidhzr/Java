@@ -12,7 +12,7 @@ import tcpclient.TCPClient;
             hostname = args[0];
             port = Integer.parseInt(args[1]);
             if (args.length >= 3) {
-                // Collect remaining arguments into a single string
+                // Collect remaining arguments into a single string!!!
                 StringBuilder builder = new StringBuilder();
                 boolean first = true;
                 for (int i = 2; i < args.length; i++) {
@@ -37,4 +37,3 @@ import tcpclient.TCPClient;
         }
     }
 }
-
